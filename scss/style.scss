@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+@import "**";
+
+body {
+  background-color: black;
+  h1, h2, ul {
+    color: $--color-main;
+  }
+  li {
+    color: blue; }
+
+  p {
+    color:green;
+  }
+}
+.c-link {
+    color: green;
+    &:hover{
+      color: $--color-main;
+      text-decoration-line: none;
+      font-size: large;
+    }
+  }
